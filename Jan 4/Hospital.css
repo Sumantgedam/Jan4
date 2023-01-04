@@ -1,0 +1,90 @@
+head{
+    background-color: black;
+    width: 100%;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+        float: left;
+        
+    }
+li a{
+        display: block;
+        text-align: center;
+        padding: 20px;
+        
+        color: white;
+        background-color: black;
+
+    }   
+li a:hover:not(.active) {
+        background-color: rgb(30, 68, 62);
+      }
+      
+.active {
+        background-color: #04AA6D;
+      }
+body{
+    background-image: linear-gradient(to right,rgba(16, 29, 170, 0.527));
+}
+h1{
+    color: rgb(11, 11, 27);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    background: url("banner.jpg") no-repeat center center / cover;
+    height: 367px;
+    opacity: "0.5";
+    z-index: -1;
+}
+#banner{
+    font-size: 27px;
+    display: flex;
+}
+.sect{
+    background-color: rgba(40, 218, 158, 0.315);
+    height: 50px;
+    width: 100%;
+}
+button{
+    background-color:rgba(10, 245, 186, 0.438);
+}
+
+footer {
+  
+    bottom:0;
+    left:0;
+    display: flex;
+    margin: auto;
+    width: auto;
+ 
+    background-color: #747b8a70;
+  }
+form{
+    margin: auto;
+    padding: 40px;
+    font-size: 19px;
+    align-items: center;
+    width:fit-content;
+}
+.style1 img{
+    padding: 7px;
+    margin: auto;
+    border-radius: 30px;
+}
+.style2{
+    padding: 7px;
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    #main-image img {
+      display: none;
+    }
+  }
